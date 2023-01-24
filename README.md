@@ -20,11 +20,10 @@ The code uses SQLAlchemy, an ORM library, to create a database to store the orig
  
  # Installation
  
- ==> Pre-Requirement
+ ==> Pre-Requirement (Software)
  
  Anaconda(Anaconda is a distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment)
- 
- # Github 
+  
  
  Step 1 : Clone the Github Repo
  
