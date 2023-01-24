@@ -35,6 +35,8 @@ The code uses SQLAlchemy, an ORM library, to create a database to store the orig
           
  Step 3 : Open the terminal into the cloned Folder or Direct enter the path by provide the cd Commend
  
+              cd or File path 
+ 
  Step 4 : Install all the requirements for the URL shorter project by providing the commend it will process and Install all the Pre-Requirements
  
           pip install -r requirements.txt
