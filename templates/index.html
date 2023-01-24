@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles.css')}}"> -->
+  <title>URL Web</title>
+</head>
+<style>
+  body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    /* background-color: #f5f5f5; */
+    background: linear-gradient(to right, #3498db, #3b95c9);
+  }
+
+  h1 {
+    margin-top: 50px;
+    font-size: 3em;
+    font-weight: bold;
+    color: #3b3b3b;
+  }
+
+  form {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #3b3b3b;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #3b3b3b;
+    border-radius: 10px;
+  }
+
+  input[type="submit"] {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #3498db, #2980b9);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  input[type="submit"]:hover {
+    background: linear-gradient(to right, #2980b9, #3498db);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #3b3b3b;
+  }
+</style>
+
+<body>
+
+  <body>
+    <h1>URL Shortener</h1>
+    <form method="post">
+      <label>Original URL:</label>
+      <input type="text" name="url" placeholder="Enter the URL to shorten">
+      <input type="submit" value="Shorten">
+    </form>
+    {% if short_url %}
+    <p>Short URL: {{ short_url }}</p>
+    {% endif %}
+  </body>
+
+</body>
+
+</html>
