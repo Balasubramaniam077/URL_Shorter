@@ -45,3 +45,14 @@ The code uses SQLAlchemy, an ORM library, to create a database to store the orig
           python app.py
           
  Step 6 : It takes Some time to proccess after completing the code the url will generate. Simply copy the url and apply in Browser it will open the Flask Web Application !!!
+ 
+         http://127.0.0.1:5000/
+         
+ Step 7 : Finally the web application will apper on your Browser Simply copy and paste the Original URL. The application will give the Shorter URL for your usage !!
+ 
+ ![url_shorter](https://user-images.githubusercontent.com/67773609/214304954-2527cadb-c1fb-4fe6-b1b4-939a5a1232f2.PNG)
+
+
+# Contribute
+
+Feel free to contribute by submitting a pull request or opening an issue for any bug or feature request.
